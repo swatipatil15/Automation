@@ -11,7 +11,7 @@ public class employer_login {
 	
 	WebDriver driver = new ChromeDriver();
 	
-	driver.get("http://demo.v2solutions.com:4030/#/login");
+	driver.get("https://uat.weareimago.com/login");
 	driver.manage().window().maximize();
 	driver.findElement(By.id("email")).sendKeys("beta_lionel.m@yopmail.com");
 	driver.findElement(By.id("password")).sendKeys("test");
