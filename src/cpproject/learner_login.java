@@ -11,7 +11,7 @@ public class learner_login {
 			System.setProperty("webdriver.chrome.driver","D:\\Test_Local_EclipseJavaProject//chromedriver.exe");
 			WebDriver driver = new ChromeDriver();
 			
-			driver.get("http://demo.v2solutions.com:4030/#/login");
+			driver.get("https://uat.weareimago.com/login");
 			driver.manage().window().maximize();
 			driver.findElement(By.id("email")).sendKeys("beta_student6@careerpillar.com");
 			driver.findElement(By.id("password")).sendKeys("test");
